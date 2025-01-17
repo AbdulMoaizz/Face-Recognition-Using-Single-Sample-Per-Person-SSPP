@@ -12,7 +12,7 @@ from sklearn.manifold import TSNE
 
 # Constants
 IMG_HEIGHT, IMG_WIDTH = 150, 150
-DATA_DIR = 'newDS'
+DATA_DIR = 'Dataset'
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 transform = transforms.Compose([
