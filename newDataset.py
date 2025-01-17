@@ -1,7 +1,6 @@
 import os
 import shutil
 import trimesh
-import numpy as np
 
 def capture_screenshot_with_trimesh(mesh_path, angles, obj_file_name, pose_name, save_folder):
     try:
