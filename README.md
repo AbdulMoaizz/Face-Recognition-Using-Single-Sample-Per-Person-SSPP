@@ -8,7 +8,7 @@ This project is designed to tackle the Single Sample Per Person (SSPP) challenge
 
 The project consists of the following main components:
 
-- **PRNet/demo.py**: Script for generating 3D face models from a single 2D image.
+- **PRNet/demo.py**: Script for generating 3D face models from a single 2D image, you can clone it through (https://github.com/yfeng95/PRNet.git).
 - **Integration.py**: Handles the integration of checking the face image in the database, and if not available, it sends the image to PRNet for 3D model generation.
 - **LoadModel.py**: Contains functions for loading the trained face recognition models.
 - **ModelTraining.py**: Code for training the face recognition model using 2D and 3D face images.
